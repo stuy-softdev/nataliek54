@@ -11,3 +11,8 @@ def sleep_in(weekday, vacation):
     return True
   if vacation == False and weekday == True:
     return False
+
+#test cases
+print("testing F, F (should be T) ==> " + str(sleep_in(False, False)))
+print("testing T, F (should be F) ==> " + str(sleep_in(True, False)))
+print("testing F, T (should be T) ==> " + str(sleep_in(False, True)))
