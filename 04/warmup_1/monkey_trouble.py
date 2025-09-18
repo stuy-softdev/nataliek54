@@ -11,3 +11,8 @@ def monkey_trouble(a_smile, b_smile):
     return True
   if a_smile == True or b_smile == True:
     return False
+
+#test cases
+print("testing TT (should be T) ==> " + str(monkey_trouble(True, True)))
+print("testing FF (should be T) ==> " + str(monkey_trouble(False, False)))
+print("testing TF (should be F) ==> " + str(monkey_trouble(True, False)))

@@ -11,3 +11,8 @@ def last2(str):
     if (str[i:i + 2] == last_str):
       count += 1
   return count
+
+#test cases
+print("testing 'hixxhi' (should be 1) ==> " + str(last2('hixxhi')))
+print("testing 'xaxxaxaxx' (should be 1) ==> " + str(last2('xaxxaxaxx')))
+print("testing 'axxxaaxx' (should be 2) ==> " + str(last2('axxxaaxx')))

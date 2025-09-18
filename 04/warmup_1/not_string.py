@@ -9,3 +9,8 @@ def not_string(str):
     return str
   else:
     return "not " + str
+
+#test cases
+print("testing 'candy' (should be 'not candy') ==> " + str(not_string('candy')))
+print("testing 'x' (should be 'not x') ==> " + str(not_string('x')))
+print("testing 'not bad' (should be 'not bad') ==> " + str(not_string('not bad')))

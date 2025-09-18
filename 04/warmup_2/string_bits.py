@@ -10,3 +10,8 @@ def string_bits(str):
     if (i % 2 == 0):
       newstr = newstr + str[i]
   return newstr
+
+#test cases
+print("testing 'Hello' (should be 'Hlo') ==> " + str(string_bits('Hello')))
+print("testing 'Hi' (should be 'H') ==> " + str(string_bits('Hi')))
+print("testing 'Heeololeo' (should be 'Hello') ==> " + str(string_bits('Heeololeo')))

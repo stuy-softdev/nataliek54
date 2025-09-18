@@ -1,4 +1,4 @@
 ## Workshop
-# FRIST LSAT
-## sidekick: DUCKIENAME
+# NATALIE KEIGER
+## sidekick: FRANKLIN
 ### SoftDev 2025-2027

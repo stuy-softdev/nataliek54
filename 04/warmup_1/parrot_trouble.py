@@ -11,3 +11,8 @@ def parrot_trouble(talking, hour):
     return False
   if talking == False:
     return False
+
+#test cases
+print("testing T, 6 (should be T) ==> " + str(parrot_trouble(True, 6)))
+print("testing T, 7 (should be F) ==> " + str(parrot_trouble(True, 7)))
+print("testing F, 6 (should be F) ==> " + str(parrot_trouble(False, 6)))
