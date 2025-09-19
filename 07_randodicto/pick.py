@@ -2,6 +2,7 @@
 #Crinkled-water
 #SoftDev
 #K07 -- randodicto
+#time taken: 2.0
 #2025-09-17
 
 '''
@@ -35,13 +36,13 @@ def categorize(filename):
     for i in range(0, len(content)):
         content[i] = content[i].split(",", 1)  #if duckie name has commas, this adds the whole name
         if (len(content[i][0]) != 0):
-            if (i < len(content)/3 - 1): #splits into three even categories by alphabetical order
+            if (i < len(content)/3): #splits into three even categories by alphabetical order
                 dict1[content[i][0]] = content[i][1]
-            elif (i < 2 * len(content)/3 - 1):
+            elif (i < 2 * len(content)/3):
                 dict2[content[i][0]] = content[i][1]
             else:
                 dict3[content[i][0]] = content[i][1]
-                
+               
     print("Criteria: splitting by alphabet value into thirds")
     print(dict1)
     print()
@@ -49,12 +50,13 @@ def categorize(filename):
     print()
     print(dict3)
     print()
-    
+   
     random_selected = random.randrange(0, len(dict1))
     print("From dict 1: " + content[random_selected][0] + ", " + dict1[content[random_selected][0]])
-    random_selected = random.randrange(len(dict1) + 1, len(dict2) + len(dict1))
+    random_selected = random.randrange(len(dict1), len(dict2) + len(dict1))
     print("From dict 2: " + content[random_selected][0] + ", " + dict2[content[random_selected][0]])
-    random_selected = random.randrange(len(dict2) + len(dict1) + 1, len(content))
+    random_selected = random.randrange(len(dict2) + len(dict1), len(content))
     print("From dict 3: " + content[random_selected][0] + ", " + dict3[content[random_selected][0]])
 
 categorize('handles-n-quacks.csv')
+
