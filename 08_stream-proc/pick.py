@@ -9,7 +9,7 @@
 Criteria: we decided to sort the list alphabetically and ignore case (so not by ASCII)
 Approach: we first removed the header and split the csv, then sorted it, then iterated through into three sections to setup username and duckiename key pairs
 Sanitization: We removed the header, used "strip" to get rid of whitespace, and checked that the length was >2 to get rid of empty comment lines
-
+We decided to use Natalie's code because it was the easiest to modify to fit the new data.
 '''
 import random
 
