@@ -29,12 +29,14 @@ ERRORS:
 
 
 from flask import Flask
+from career_chooser import *
 
 app = Flask(__name__)                    # Q0: Where have you seen similar syntax in other langs?
 
 @app.route("/")                          # Q1: What points of reference do you have for meaning of '/'?
-def hello_world():
-    print(__name__)                      # Q2: Where will this print to? Q3: What will it print?
-    return "No hablo queso!"             # Q4: Will this appear anywhere? How u know?
+def hello_world():                  # Q2: Where will this print to? Q3: What will it print?
+    return str(choose_career('occupations.csv'))           # Q4: Will this appear anywhere? How u know?
 
-app.run()                                # Q5: Where have you seen similar constructs in other languages?
+if __name__ == "__main__":      # true if this file NOT imported
+    app.debug = True            # enable auto-reload upon code change
+    app.run()                             # Q5: Where have you seen similar constructs in other languages?

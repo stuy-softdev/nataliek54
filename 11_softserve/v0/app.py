@@ -1,14 +1,14 @@
-# Clyde 'Thluffy' Sinclair
+# Natalie Keiger
 # SoftDev
-# September 2024
+# September 2025
 
 from flask import Flask
-app = Flask(__name__)          # ...
+app = Flask(__name__)          # applies flask to this file
 
-@app.route("/")                # ...
+@app.route("/")                # says where it should go file wise
 def hello_world():
-    print(__name__)            # ...
-    return "No hablo queso!"   # ...
+    print(__name__)            # prints to terminal
+    return "No hablo queso!"   # prints in website
 
-app.run()                      # ...
+app.run()                      # runs program
                 
