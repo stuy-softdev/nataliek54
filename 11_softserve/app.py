@@ -35,7 +35,7 @@ app = Flask(__name__)                    # Q0: Where have you seen similar synta
 
 @app.route("/")                          # Q1: What points of reference do you have for meaning of '/'?
 def hello_world():                  # Q2: Where will this print to? Q3: What will it print?
-    return str(choose_career('occupations.csv'))           # Q4: Will this appear anywhere? How u know?
+    return str("Salt lamp horse | Names: Natalie Keiger, Evan Khosh, Carrie Ko | " + choose_career('occupations.csv'))           # Q4: Will this appear anywhere? How u know?
 
 if __name__ == "__main__":      # true if this file NOT imported
     app.debug = True            # enable auto-reload upon code change
