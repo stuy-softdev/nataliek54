@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title> Career Advice </title>
+</head>
+
+<body>
+<h1> Randomized Career Chooser </h1>
+<h2> Salt Lamp Horse: Evan Khosh, Natalie Keiger, Carrie Ko </h2>
+<p> Randomly Chosen: {{ chosen }} </p>
+
+<table>
+<tr>
+<th> Career </th>
+<th> Percent </th>
+</tr>
+{% for item in collection %}
+<tr>
+<td> {{ item[0] }} </td>
+<td> {{ item[1] }} </td>
+<td> {{ item[2] }} </td>
+</tr>
+{% endfor %}
+</table>
+
+</body>
+
+</html>
