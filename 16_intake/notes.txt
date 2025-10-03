@@ -1,0 +1,28 @@
+##Salt Lamp Horse
+
+DISCO:
+* The print statements in each function only run when in that webpage
+* Stores as a dictionary where the specified name is the key and the given info is the value
+* Headers gives you metadata (?)
+-----------------------------------------------------------------------
+
+
+Q/C/C:
+* Does auth call authenticate?
+* Not runnable when the main page asks for username, because it hasn't been given yet
+* 
+-----------------------------------------------------------------------
+
+
+OTHER?
+* 
+* 
+* 
+-----------------------------------------------------------------------
+
+
+
+
+
+
+
