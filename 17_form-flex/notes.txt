@@ -1,0 +1,19 @@
+
+6 of 2,331
+Assignment 17
+Inbox
+
+Evan Khosh
+Attachments
+11:44 AM (6 hours ago)
+to carriek3, me
+
+DISCOVERIES:
+- GET is easier to use!!!
+- GET is less private
+- request doesn't return as a string but as something else...
+
+QCC:
+- Why use POST?
+- Why is POST so annoying :(
+- Why specify which one you want to use? Flask does it for you
