@@ -1,0 +1,13 @@
+DISCOVERIES:
+- 
+
+QCC:
+- 
+
+PLAN:
+Main page: check if session is active
+    If so: go to response.html (user is logged in)
+    If not: go to login.html (which the user can use to log in and go to response.html)
+Response.html: ask user if they want to log out
+    If so: go to logout.html (session cleared)
+    If not: stay on response.html
