@@ -1,0 +1,41 @@
+body {
+  background-color: #404040;
+}
+.header {
+  background-color: #BFBFBF;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+h1 {
+  margin: 0px;
+}
+
+h3 {
+  left: 10px;
+}
+
+h4 {
+  left: 10px;
+}
+
+h2 {
+  left: 300px;
+}
+
+p {
+  left: 300px;
+}
+
+.middle {
+  background-color: #808080;
+  column-count: 2;
+  column-width: 100px;
+
+}
+.feet {
+  background-color: #4F4F4F;
+  text-align: right;
+  color: #808080;
+  padding: 10px;
+}
