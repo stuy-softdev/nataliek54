@@ -1,0 +1,11 @@
+    Window Dwellers
+    Natalie Keiger, Evan Khosh, Veronika Duvanova
+    SoftDev 2025
+    time spent: 5min
+    simple demo of CSS with no moving parts (no flask server)
+
+Notable:
+* Using a grid is the best. Columns DO NOT WORK WELL
+* Grid size can be done relatively with 'fr'
+* To do inline, you can just paste the stuff from the CSS file...
+
