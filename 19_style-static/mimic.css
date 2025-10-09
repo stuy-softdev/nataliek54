@@ -19,6 +19,7 @@ h1 {
     background-color: #7e7e7e;
     margin: 0px;
     column-count: 2;
+    row-count: 2;
     display: grid;
     grid-template-columns: 1fr 3fr;
 }
