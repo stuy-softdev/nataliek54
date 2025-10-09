@@ -1,0 +1,10 @@
+Window Dwellers
+Natalie Keiger, Evan Khosh, Veronika Duvanova
+SoftDev 2025
+time spent: 5min
+
+QCC:
+What's the point of putting the html in templates if we're not changing anything?
+
+DISCO:
+You can change the order of html elements in css without touching the base html
