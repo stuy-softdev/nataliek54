@@ -1,0 +1,19 @@
+Natalie Keiger
+Team 1
+Softdev
+10-15-25
+K21: csvdb
+
+DISCOVERIES:
+--------------------------------------------------------------------
+* you need a semicolon after every command like java
+* any value you insert should be in quotations
+* caps aren't necessary
+===================================================================
+
+QUESTIONS/COMMENTS/CONCERNS:
+-------------------------------------------------------------------
+* How can you more effectively delete the table when you want to change/replace it?
+* How can you delete rows from a table?
+* How can we read the sqlite3 files when they just look like "@@@@@@@"??
+==================================================================
