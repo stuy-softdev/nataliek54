@@ -1,0 +1,14 @@
+Natalie Keiger and Isabel Zheng
+Team 1
+Softdev
+10-16-25
+K22
+
+DISCOVERIES:
+* use "where" to narrow down queries
+* sqlite3 works just as well with big databases!
+* use fetchall to print and get all of the selected info
+
+QCC:
+* How do you connect the two tables (print names rather than id for last one?)
+* why is fetchall necessary when we can print automatically with SELECT in the terminal?
