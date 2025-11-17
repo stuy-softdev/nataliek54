@@ -48,8 +48,8 @@ def logged_in():
 def logout():
     session['username'] = None
     return render_template('logout.html')
-    
-    
+
+
 if __name__ == "__main__": #false if this file imported as module
     app.debug = True  #enable PSOD, auto-server-restart on code chg
     app.run()
