@@ -11,11 +11,14 @@ def main_page():
     key = fi.read()
 
     with urllib.request.urlopen('https://api.nasa.gov/planetary/apod?api_key=' + key) as response:
-        data = response.read()
-        link = reponse[url]
-        img = '<img src=' + link + '>'
+        response = response.read().decode()
+        print(response)
+        json_obj = json.loads(response)
+        print(json_obj['url'])
+        img = json_obj['url']
+        desc = json_obj['explanation']
 
-    return render_template('main.html', image=img)
+    return render_template('main.html', image=img, exp=desc)
 
 if __name__ == "__main__":
     app.debug = True
