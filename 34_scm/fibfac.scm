@@ -14,11 +14,11 @@
            (* n (fact (- n 1))))))
 
 (define (fib n)
-    (if (< n 0)
+    (if (n < 0)
       "Cannot use negative numbers"
-      (if (= n 0)
+      (if (n = 0)
           0
-          (+ n (fib (- n 1))))))
+          (n + (fib (n - 1))))))
 
 (fact 4)
 (fact 7)

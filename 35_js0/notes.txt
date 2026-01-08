@@ -1,0 +1,8 @@
+DISCO
+- you can just type the function into the console then use it!
+- you can use console the same as a terminal kinda, and you don't even have to press enter
+  - if your number is too big you get Interal Error Too Much Recursion
+- const is something over the whole file, let is for temporary/variable
+
+QCC
+- why cant i share my document
