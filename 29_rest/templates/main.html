@@ -14,6 +14,12 @@
   <div class = background-color:black> </div>
   <h1>Awesome Sauce</h1>
   <h3>Ashley Li, Natalie Keiger</h3>
-  <p> {{image}} </p>
-  <p> {{exp}} </p>
+  <ul>
+  {% for breed in breeds %}
+  <li> <a href="/image?breed={{breed}}"> {{breed}}</a>
+ </li>
+  {% endfor %}
+  </ul>
+
+
 </body>

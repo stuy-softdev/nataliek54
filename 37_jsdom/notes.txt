@@ -1,0 +1,6 @@
+DISCO:
+- gotta put the script at the end 
+- casting is String() and not str()
+
+QCC:
+- ew semicolons
